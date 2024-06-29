@@ -499,6 +499,9 @@ document.getElementById('startButton').addEventListener('click', function () {
                     if (value.ids.includes(Number(img.id)) && img != border && img != tempImg) {
                         ////console.log(key);
                         img.style.transition = '';
+                        
+                        img.src = 'splashEffect.gif';
+                        
                         img.style.width = '8%';
                         //console.log(img.style.width+5);
                         let numberString = img.style.left.replace('%', '');
@@ -510,8 +513,7 @@ document.getElementById('startButton').addEventListener('click', function () {
                         
 
                         img.style.zIndex = 1;
-                        img.src = 'splashEffect.gif';
-                        
+
                         
                         //img.parentNode.removeChild(img);
                         
