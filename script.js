@@ -492,7 +492,7 @@ document.getElementById('startButton').addEventListener('click', function () {
                     popAudio.loop = false;
                     await gameContainer.appendChild(popAudio);
                     await delay(10);
-                    existingImages.forEach(function (img) {
+                    existingImages.forEach(async function (img) {
                     ////console.log(value.ids);
                     ////console.log(img.id);
                     ////console.log((value.ids.includes(img.id)));
@@ -501,7 +501,7 @@ document.getElementById('startButton').addEventListener('click', function () {
                         img.style.transition = '';
                         
                         img.src = 'splashEffect.gif';
-                        
+                        await delay(5);
                         img.style.width = '8%';
                         //console.log(img.style.width+5);
                         let numberString = img.style.left.replace('%', '');
