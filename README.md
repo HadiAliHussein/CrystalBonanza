@@ -2,7 +2,7 @@
 
 <p>This is a simple Slotsgame, in which you have to have a total amount of 12 of the same symbols to achieve a hit.</p>
 
-<img src="https://prnt.sc/m9e7HIei0Qx-" alt="Image">
+![Screenshot:](example.png)
 
 <a href="https://hadialihussein.github.io/CrystalBonanza/">Click here to PLAY</a>
 
